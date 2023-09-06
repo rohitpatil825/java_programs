@@ -1,0 +1,40 @@
+//prog: To print Message v.5
+class Flower
+{
+	 static void show()
+	{
+		System.out.println("Jai");
+		System.out.println("Jui");
+		System.out.println("Mogara");
+	}
+}
+class Game
+{
+	 void show()
+	{
+		System.out.println("Cricket");
+		System.out.println("Kabbadi");
+		System.out.println("Kho-Kho");
+	}
+}
+class Nasta
+{
+	 void show()
+	{
+		System.out.println("Vadapav");
+		System.out.println("Misal");
+		System.out.println("Pohe");
+	}
+}
+
+public class MessageDemo5
+{
+	public static void main(String[] args)
+	{
+		Game ob=new Game();
+		Nasta ob1=new Nasta
+		Flower.show();
+		ob.show();
+		ob1.show();
+	}
+}
